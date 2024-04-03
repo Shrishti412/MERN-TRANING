@@ -1,0 +1,80 @@
+
+
+/* .heading_class .hello{
+    
+}
+
+.image {
+    text-align: center;
+} */
+
+/* body {
+
+}
+
+{
+    background-color: black;  
+} */
+
+/* "*"  it is use to select  the entire page.*/
+/* border goes from: top,right,left,bottom. */
+
+
+.parent{
+    /* font-size: 32px; */
+    /* height: 100px; */
+    /* background-color: bisque; */
+    ol{
+        background-color: rgb(6, 200, 200);
+
+        li:nth-child(4){
+            background-color: chartreuse;
+        }
+    }
+
+    ul:first-child{
+        /* background-color: coral; */
+
+        li:nth-child(3){
+            background-color: cornflowerblue;
+        }
+    }
+}
+
+/* body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+} */
+.child{
+
+    font-size: 30px;
+    /* background-color: rgb(217, 122, 13);  */
+    width:500px;
+    padding: 16px 32px;
+    /* min-height: 200px;
+    max-height: 300px; */
+    /* overflow: hidden; */
+    /* max height 300px */
+}
+
+/* .buttonsubmit{
+        display: block;
+        margin: 0 auto;
+        border-radius: 50px;
+        padding: 20px,50px,20px,50px;
+        border-color: bisque;
+        border-style: hidden;
+}
+
+.buttonsubmit{
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+    border-color: aqua;
+    border-style: hidden;
+}
+
+ */
