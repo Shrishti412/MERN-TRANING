@@ -1,0 +1,16 @@
+section{
+    background-color: rgb(155, 185, 175);
+    border: 1px solid black;
+}
+
+h1{
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+.heading{
+    position: sticky;
+    top:0px;
+}

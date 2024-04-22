@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Handling</title>
+</head>
+<body>
+    
+    <div>
+        <!-- <form action=""> -->
+            <form onsubmit="submitForm(event)">
+            <label for="">First Name</label>
+            <!-- <input type="text" name="firstname" placeholder="firstname" onchange="namechange"><br><br> -->
+            <input type="text" name="firstname" placeholder="firstname" onkeydown="namechange(event)"><br><br>
+            <!-- <input type="text" name="firstname" placeholder="firstname" onkeyup="namechange(event)"><br><br> -->
+
+            <label for="">Last Name</label>
+            <input type="text" name="lastname" placeholder="lastname"><br><br>
+            <label for="">Age</label>
+            <input type="number" name="age" id="" placeholder="age"><br><br>
+            <label for=""> Hobbies</label> <br>
+            <label for=""> Swimming</label>
+            <input type="checkbox" name="hobbies" value="dancing"><br><label for="">Dancing</label>
+
+            <input type="checkbox" name="hobbies" value="singing"><br><label for="">Singing</label>
+            <input type="checkbox" name="hobbies" value="swimming"><br> <br>
+            <button>Submit</button> 
+            
+            
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
